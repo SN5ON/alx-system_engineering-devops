@@ -9,3 +9,4 @@ do
 	echo "Best school"
 	(( num++ ))
 done
+
