@@ -2,11 +2,11 @@
 
 # displays Best School 10 times using while loop
 
-num="0"
+i="0"
 
-while [ $num -lt 10 ]
+while [ $i -lt 10 ]
 do
 	echo "Best school"
-	(( num++ ))
+	(( i++ ))
 done
 
