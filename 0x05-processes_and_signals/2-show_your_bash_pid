@@ -2,5 +2,5 @@
 #  Bash script that displays lines containing the bash word
 # shellcheck disable=SC2009
 
-echo $ps -bash | ./1-list_your_processes
+./1-list_your_processes | grep "bash"
 
