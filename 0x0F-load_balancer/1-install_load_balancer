@@ -5,6 +5,7 @@
 # Make sure that HAProxy can be managed via an init script
 # Install and configure HAproxy on my lb-01 server
 
+
 echo -e "Updating and doing some minor checks...\n"
 
 function install() {
@@ -43,8 +44,8 @@ frontend shalo-frontend
 
 backend shalo-backend
     balance roundrobin
-    server 240188-web-01 34.224.17.104 check
-    server 240188-web-02 54.145.81.79 check
+    server 240188-web-01 34.224.17.104 check port 80
+    server 240188-web-02 54.145.81.79 check port 80
 "
 
 # shellcheck disable=SC2154
