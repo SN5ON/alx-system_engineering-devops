@@ -43,8 +43,8 @@ frontend shalo-frontend
 
 backend shalo-backend
     balance roundrobin
-    server 151666-web-01 100.25.190.21:80 check port 80
-    server 151666-web-02 54.160.77.90:80 check port 80
+    server 240188-web-01 34.224.17.104 check port 80
+    server 240188-web-02 54.145.81.79 check port 80
 "
 
 # shellcheck disable=SC2154
