@@ -39,7 +39,7 @@ defaults
 
 frontend shalo-frontend
     bind *:80
-    default_backend shalo-tech-backend
+    default_backend shalo-backend
 
 backend shalo-backend
     balance roundrobin
